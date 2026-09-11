@@ -3,4 +3,6 @@ uvicorn
 python-dotenv
 google-genai
 sentence-transformers
-faiss-cpusupabase
+faiss-cpu
+supabase
+PyJWT[crypto]
