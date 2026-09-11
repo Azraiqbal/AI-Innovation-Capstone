@@ -1,0 +1,30 @@
+# Backend secrets
+backend/.env
+
+# Frontend environment
+frontend/.env
+frontend/.env.*
+
+# Keep example env files
+!backend/.env.example
+!frontend/.env.example
+
+# Python
+backend/venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Node
+frontend/node_modules/
+node_modules/
+
+# Build
+frontend/dist/
+dist/
+
+# IDE / OS
+.vscode/
+.DS_Store
+Thumbs.db
